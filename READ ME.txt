@@ -1,0 +1,38 @@
+REQUIREMENTS.
+
+This code will only execute succesfully on Mininet Virtual network test bed. 
+The requirements used during this thesis are listed below. However, to test this code in a physical lab, only Mininet, SDN controllers and a web browser to access the controllers GUI are needed. To view code on windows platform, download Sublime Text.
+
+LAB SETUP DETAILS
+The software and hardware used to conduct this experimentation part of the thesis are specified below.
+
+Hardware Specification
+
+Platform: Dell Inspiron 5558
+Processor: Intel Core i7-5500U CPU 2.40GHz
+System type: 64-bit OS
+Ram: 8 GB 
+Hard Disk: 1TB (at least 10GB space needed for software installation)
+
+Software Requirement
+
+Hypervisor (Type 2): VirtualBox
+Server: Ubuntu Server (Version: 14.04 LTS)
+SSH Terminal: Putty
+X server: Xming
+SDN Realistic Virtual Network: Mininet (Version: 2.2.1)
+Open Source Controller: HP VAN SDN controller (Version: 2.7.10-x64)
+Commercial Controller: OpenDaylight (Version: Beryllium-SR2)
+Penetration Testing Software: Kali Linux
+
+
+Controllers GUI URL
+
+OpenDaylight controller URL: http://172.16.9.200:8181/index.html#/login
+
+HP VAN controller URL:       https://192.168.63.52:8443/sdn/ui/app/index
+
+
+
+Command to run code on Mininet after server controllers are online: Sudo python (filename)
+NOTE: filename is the name used to save the python code. For example to run the code with filename "thesis.py" Type in the file path or if in same folder: sudo python thesis.py

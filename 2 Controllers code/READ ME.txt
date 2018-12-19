@@ -1,0 +1,5 @@
+This code is for section 5.2 of the thesis that implements high network availability in SDN.
+
+The code specifies the IP address of two remote controllers (OpenDaylight and HP VAN SDN controller) and port number the remote controllers will listen on for connection.
+
+NOTE: Change IP addresses of the controller to whichever IP is assigned to the remote controllers used at the time of testing.

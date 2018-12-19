@@ -1,0 +1,5 @@
+Section 5.1 in thesis
+
+This code achieves the objective of testing SDN network operations by creating 4 hosts and 3 switches. The code specifies the IP address of a remote controller (HP VAN SDN controller) and port number the remote controller will listen on for connection.
+
+NOTE: Change IP address of the controller to whichever IP is assigned to the remote controller.
